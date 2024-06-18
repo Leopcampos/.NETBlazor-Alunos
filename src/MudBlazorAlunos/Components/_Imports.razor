@@ -10,3 +10,11 @@
 @using MudBlazorAlunos.Components
 @using MudBlazor
 @using MudBlazor.Services
+
+@using MudBlazorAlunos.Context
+@using MudBlazorAlunos.Services
+@using MudBlazorAlunos.Entities
+
+@inject IAlunoService alunoService
+@inject ISnackbar snackBar
+@inject IDialogService _dialogService;
